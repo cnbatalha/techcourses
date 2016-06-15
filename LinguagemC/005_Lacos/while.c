@@ -6,12 +6,12 @@ main()
 	int valor;
 	
 	valor = 11;
-
+/*
 	do
 	{
 		//if ( resto == 0 )
 		//{
-			printf("%d \n", valor);
+		printf("%d \n", valor);
 		//}
 		
 		//valor = valor + 1;
@@ -20,13 +20,13 @@ main()
 		
 		
 	} while ( valor <= 10 );
-
-/*	
+*/
+	
 	while ( valor <= 10 )
 	{
-		int resto;
+		//int resto;
 		
-		resto = ( valor % 2 );
+		//resto = ( valor % 2 );
 		
 		//if ( resto == 0 )
 		//{
@@ -37,5 +37,5 @@ main()
 		//valor--;
 		valor++;
 	}
-*/
+
 }
